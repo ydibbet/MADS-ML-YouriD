@@ -1,0 +1,26 @@
+[project]
+name = "mads-uos3-youri"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "ydibbet", email = "yjm.dibbet@student.han.nl" }
+]
+
+dependencies = [
+    "torch>=2.4.1",
+    "ipykernel>=6.29.5",
+    "numpy>=2.1.1",
+]
+
+readme = "README.md"
+requires-python = ">= 3.10"
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.pdm]
