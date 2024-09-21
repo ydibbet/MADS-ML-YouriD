@@ -10,6 +10,9 @@ dependencies = [
     "torch>=2.4.1",
     "ipykernel>=6.29.5",
     "numpy>=2.1.1",
+    "mads-datasets>=0.3.12",
+    "mltrainer>=0.1.128",
+    "ipywidgets>=8.1.5",
 ]
 
 readme = "README.md"
