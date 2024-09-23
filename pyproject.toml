@@ -5,7 +5,11 @@ description = "Add your description here"
 authors = [
     { name = "ydibbet", email = "yjm.dibbet@student.han.nl" }
 ]
-dependencies = []
+dependencies = [
+    "ipykernel>=6.29.5",
+    "mads-datasets>=0.3.12",
+    "mltrainer>=0.1.128",
+]
 readme = "README.md"
 requires-python = ">= 3.10"
 
@@ -16,3 +20,5 @@ build-backend = "pdm.backend"
 [tool.rye]
 managed = true
 dev-dependencies = []
+
+[tool.pdm]
