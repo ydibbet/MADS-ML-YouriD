@@ -9,6 +9,8 @@ dependencies = [
     "ipykernel>=6.29.5",
     "mads-datasets>=0.3.12",
     "mltrainer>=0.1.128",
+    "plotly>=5.24.1",
+    "seaborn>=0.13.2",
 ]
 readme = "README.md"
 requires-python = ">= 3.10"

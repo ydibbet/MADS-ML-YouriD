@@ -153,6 +153,7 @@ markupsafe==2.1.5
     # via werkzeug
 matplotlib==3.9.2
     # via mlflow
+    # via seaborn
 matplotlib-inline==0.1.7
     # via ipykernel
     # via ipython
@@ -183,6 +184,7 @@ numpy==2.1.1
     # via pyarrow
     # via scikit-learn
     # via scipy
+    # via seaborn
     # via tensorboard
     # via tensorboardx
     # via torchtext
@@ -198,6 +200,7 @@ packaging==24.1
     # via ipykernel
     # via matplotlib
     # via mlflow-skinny
+    # via plotly
     # via ray
     # via tensorboard
     # via tensorboardx
@@ -205,6 +208,7 @@ pandas==2.2.3
     # via mads-datasets
     # via mlflow
     # via ray
+    # via seaborn
     # via torch-tb-profiler
 parso==0.8.4
     # via jedi
@@ -214,6 +218,8 @@ pillow==10.4.0
     # via torchvision
 platformdirs==4.3.6
     # via jupyter-core
+plotly==5.24.1
+    # via mads-uos3-youri
 polars==1.7.1
     # via mads-datasets
 prompt-toolkit==3.0.47
@@ -283,6 +289,8 @@ scikit-learn==1.5.2
 scipy==1.14.1
     # via mlflow
     # via scikit-learn
+seaborn==0.13.2
+    # via mads-uos3-youri
 setuptools==75.1.0
     # via opentelemetry-api
     # via opentelemetry-sdk
@@ -302,6 +310,8 @@ stack-data==0.6.3
     # via ipython
 sympy==1.13.3
     # via torch
+tenacity==9.0.0
+    # via plotly
 tensorboard==2.17.1
     # via torch-tb-profiler
 tensorboard-data-server==0.7.2
